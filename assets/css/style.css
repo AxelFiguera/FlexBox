@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+main{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex: 0 0 100%;
+    text-wrap: nowrap
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:  #f3f3f3;
+}
+
+.principal .div-central .title{
+    font-size: 2.8rem;
+}
+
+.principal .div-central img{
+    width: 45%;
+    border-radius: 15px;
+}
+
+.contactos img{
+    border-radius: 200px;
+    width: 60px;
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #e8ebe4 ;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.info p{
+    margin: 0 15px;
+}
+
+.chat-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid #e8ebe4 ;
+}
+
+.chat-contact button{
+    background-color: #A491D2;
+    color:  #FFF;
+    border: #FFF;
+    padding: 15px 60px;
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.icons{
+    color: gray;
+    font-size: 1.4em;
+    padding: 20px;
+    letter-spacing: 7px;
+
+}
+
+.text-activa{
+    color: gray;
+    font-size: 0.8em;
+}
+
+.title2{
+    margin-top: -40px;
+}
